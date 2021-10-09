@@ -1,0 +1,272 @@
+@import url(//db.onlinewebfonts.com/c/ac78111d5e1e6dc73eb1aaf06ec60963?family=Debussy);
+
+@font-face {
+    font-family: "Debussy"; src: url("//db.onlinewebfonts.com/t/ac78111d5e1e6dc73eb1aaf06ec60963.eot");
+    src: url("//db.onlinewebfonts.com/t/ac78111d5e1e6dc73eb1aaf06ec60963.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ac78111d5e1e6dc73eb1aaf06ec60963.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/ac78111d5e1e6dc73eb1aaf06ec60963.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/ac78111d5e1e6dc73eb1aaf06ec60963.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/ac78111d5e1e6dc73eb1aaf06ec60963.svg#Debussy") format("svg"); 
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css for navigation bar */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(103, 194, 247);
+    font-size: 28px;
+    font-family: Debussy;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none ;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 1px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(116, 252, 134);
+}
+/* css for Introduction Page */
+.header{
+    background-image: url('ELEMENTS/background.png') ;
+    height: 100vh;
+    background-size: cover;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 50px;
+    color: #fff ;
+    font-family: Debussy ;
+    text-align: center;
+    margin-top: 135px;
+}
+.row h1{
+    text-shadow: 5px 5px 10px #000;
+    font-family: debussy ;
+}
+.row h4{
+    font-family: Debussy ;
+    text-shadow: 5px 5px 10px #000;
+    margin-top: 30px;
+}
+/* css for about us and our goal*/
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+}
+.right{
+    right: 0;
+}
+.left{
+    left: 0;
+}
+#para1{
+    font-size: 60px;
+    text-shadow: 5px 5px 10px #000;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: debussy;
+    color: #fff;
+}
+#para2{
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#img1{
+    border: 5px solid  rgb(88, 177, 228);
+    width: 40%;
+    position: relative;
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#img2{
+    border: 5px solid  rgb(88, 177, 228);
+    width: 40%;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+#Hg{
+    font-family: debussy;
+    font-weight: lighter;
+    text-align: center;
+    color: darkgreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#mp{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table{
+    text-align: justify;
+    padding-right: 10px;
+    border: 4px solid rgb(88, 177, 228);
+    border-collapse: collapse;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+table tr{
+    border:  4px solid rgb(88, 177, 228);
+}
+#body{
+    border: 4px solid rgb(88, 177, 228);
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+#body ul{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#body ul li{
+    font-size: 18px;
+}
+#head{
+    border: 4px solid rgb(88, 177, 228);
+    font-family: debussy;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 10px #000;
+    letter-spacing: 1.8px;
+}
+/* css for Enviromental Facts */
+
+.header1{
+    background-image: url('ELEMENTS/background\ \(1\).png') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title{
+        font-family: debussy;
+        color: #fff;
+        text-align: center;
+        text-shadow: 5px 5px 10px #000;
+        font-size: 60px;
+        margin-top: 20px;
+}
+#sub{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#pics{
+    padding-left: 13%;
+    width: 1100px;
+}
+#sub2{
+    margin-top: 10px;
+    font-family: debussy;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 10px #000;
+    color: #fff;
+}
+.facts{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    color: #000;
+}
+.facts ul{
+    padding-left: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    list-style-type: decimal;  
+}
+.facts ul li{
+    text-align: justify;
+    padding-right: 15%;
+}
+/* css for Enviromental Information */
+.header2{
+    background-image: url('ELEMENTS/background\ \(1\).png') ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#title-1{
+    font-family: debussy;
+    color: #fff;
+    text-align: center;
+    text-shadow: 5px 5px 10px #000;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.pic1{
+    padding-top: 2%;
+    padding-left: 21%;
+    width: 1100px;
+}
+#sub-title{
+    font-size: 23px;
+    text-align: center;
+    font-family: debussy;
+    color:  #fff;
+    text-shadow: 5px 5px 10px #000;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.paragraph{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+}
+.paragraph1{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
